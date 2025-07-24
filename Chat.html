@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chat App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <button id="logout-btn">Logout</button>
+
+  <h1>Chat App</h1>
+
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="left-info" id="current-user">Logged in as: </div>
+      <div class="right-info">
+        <select id="chat-target">
+          <option value="">-- Select User --</option>
+          <option value="Alice">Alice</option>
+          <option value="Bob">Bob</option>
+          <option value="Satyam">Satyam</option>
+          <option value="Samir">Samir</option>
+          <option value="Jenisha">Jenisha</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="chat-messages"></div>
+
+    <form class="chat-input-form">
+      <input type="text" class="chat-input" placeholder="Type a message..." required />
+      <button type="submit" class="button send-button">Send</button>
+    </form>
+
+    <button class="button clear-chat">Clear Chat</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
