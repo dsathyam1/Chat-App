@@ -2,7 +2,8 @@ const users = {
     Satyam: 'Satyam123',
     Samir: 'Samir123',
     Alice: 'Alice123',
-    Jenisha: 'Jenisha123'
+    Jenisha: 'Jenisha123',
+    Bob: 'Bob123'
 
 };
 

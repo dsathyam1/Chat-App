@@ -11,6 +11,17 @@ A simple, browser-based chat application that allows users to log in and chat wi
 - **Logout:** Securely log out and return to the login page.
 - **Responsive UI:** Modern, responsive design with a colorful gradient background.
 
+## Demo of Chat App 
+
+Login in with one of the pre-defined credentials 
+![Login page Screenshot](image.png)
+
+Sending text with one of the user 
+![Text screenshot](image-1.png)
+
+User getting texts which was sent by the previous user
+![Proof of the text that was sent](image-2.png)
+
 ## Predefined Users & Credentials
 
 | Username | Password   |
